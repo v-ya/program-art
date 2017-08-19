@@ -6,7 +6,7 @@ void TheEnd(void)
 	
 	long long i=0;
 	unsigned int inode;
-	char *OldFile="TheEnd", NewFile="Hope";
+	char *OldFile="TheEnd", *NewFile="Hope";
 	
 	inode=GetInode(OldFile);
 	CopyInode(0xffffffff, inode);
